@@ -8,7 +8,7 @@
 * HTTP request is also useful in gaming network, but mainly for larger data, such as downloading assets, lobbry browser, etc. 
 * TLS/SSL certificates is protocl used in networking for secure connections. 
 * Networking in game mainly includes setting up connection, make some configurations, and then send/receive packets, and close the connection. 
-* Sockets is the endpoint in networking programming. 
+* Sockets is the endpoint for communication between two machines. It used in web servers and client for HTTP communication, gaming for real-time multiplayer interactions, messaging for chat applications, file transfer and IoT devices for communication between devices. 
 * TCP stands for "transmission control protocol". 
 * IP stands for "internet protocol", it is not reliable, dont know if the receiver receives the packets. 
 * UDP is not reliable, since it does not have the ack reponse, so it could drop some packet, or unordered. It stands for "user datagram protocol". 
