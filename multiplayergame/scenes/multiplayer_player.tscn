@@ -1,8 +1,8 @@
 [gd_scene load_steps=29 format=3 uid="uid://vyf02pvx4mpi"]
 
 [ext_resource type="Script" path="res://scripts/multiplayer/multiplayer_controller.gd" id="1_ith4l"]
-[ext_resource type="Texture2D" uid="uid://bervslswyf8bs" path="res://assets/sprites/knight.png" id="2_p1yph"]
 [ext_resource type="Script" path="res://scripts/multiplayer/multiplayer_input.gd" id="2_xt5rc"]
+[ext_resource type="Texture2D" uid="uid://bervslswyf8bs" path="res://assets/sprites/knight.png" id="3_3ip1c"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_bngbv"]
 properties/0/path = NodePath(".:player_id")
@@ -27,90 +27,90 @@ properties/0/spawn = true
 properties/0/replication_mode = 1
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n0ei4"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kl42y"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r1nd2"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nsdca"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kcj5l"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(64, 160, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8igbn"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x18cb"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(32, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_32htl"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(64, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x16cm"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(96, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m03w7"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(128, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ew2gq"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(160, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ufkq6"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(192, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_baml0"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(224, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rqjgk"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(0, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d7bas"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(32, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lgd38"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(64, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k02bw"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(96, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i2ilv"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(128, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5dux7"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(160, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w54hl"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(192, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3ngt0"]
-atlas = ExtResource("2_p1yph")
+atlas = ExtResource("3_3ip1c")
 region = Rect2(224, 96, 32, 32)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_dgvev"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_7vppm"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -207,7 +207,7 @@ script = ExtResource("2_xt5rc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -13)
-sprite_frames = SubResource("SpriteFrames_dgvev")
+sprite_frames = SubResource("SpriteFrames_7vppm")
 animation = &"jump"
 autoplay = "idle"
 
